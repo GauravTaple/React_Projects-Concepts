@@ -1,0 +1,35 @@
+
+
+/* UseReducer.css */
+* {
+  /* background-color: azure; */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: 98vh; /* Make the container full height of the viewport */
+  background-color:antiquewhite;
+}
+
+.count {
+  font-size: 50px;
+  margin: 50px;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+.button {
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+ 
+
+ 
+

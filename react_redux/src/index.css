@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Container styling */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: 100vh; /* Make the container full height of the viewport */
+}
+
+/* Heading styling */
+h1 {
+  font-size: 50px;
+  color: #d81515;
+  margin-bottom: 10px;
+}
+
+/* Counter container styling */
+.counter-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Button styling */
+.counter-btn {
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 50px;
+  margin: 0 5px;
+}
+
+/* Input styling */
+.counter-input {
+  width: 300px;
+  height: 60px;
+  text-align: center;
+  font-size: 16px;
+}
+
